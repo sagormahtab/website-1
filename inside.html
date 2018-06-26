@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inside Page</title>
     
     <link rel="icon" href="img/favicon.png" type="images/png">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
        <div class="main_wrap header_bg">
@@ -23,7 +25,7 @@
         <div class="wrap">
             <nav>
             <div id="nav">
-                <ul>
+                <ul id="mainmenu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Inside</a></li>
                     <li><a href="#">Menu Item</a></li>
@@ -131,6 +133,25 @@
         </footer>
         </div>
     </div>
+    
+    
+    
+    
+    
+    <!-- jQuery Min Version -->	
+		<script src="js/jquery-1.9.0.min.js" charset="utf-8"></script>	
+		
+<!--JS File For Responsive Menu -->	
+		<script src="js/responsive-menu.js"></script>
+		
+<script>
+  domready(function(){
+			selectnav('mainmenu', {
+		label: '*** Select Menu *** '
+	});
+	prettyPrint()
+		})
+</script>
 </body>
 </html>
 
