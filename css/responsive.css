@@ -79,14 +79,8 @@ px      68    160    252    */
     #sidebar{
         width: 100%;
     }
-    .nav_bg{
-        border-bottom: 0px;
-    }
     #header{
         text-align: center;
-    }
-    #imgp_wrap img{
-        margin-left: 30%;
     }
 	
     #content figure{
@@ -180,9 +174,6 @@ px      68    160    252    344    436    */
     }
     #sidebar{
         width: 100%;
-    }
-    .nav_bg{
-        border-bottom: 0px;
     }
     #header{
         text-align: center;
