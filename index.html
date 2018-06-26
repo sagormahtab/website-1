@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My WebSite</title>
     
     <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
@@ -13,6 +14,7 @@
     <link rel="icon" href="img/favicon.png" type="images/png">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
        <div class="main_wrap header_bg">
@@ -29,7 +31,7 @@
         <div class="wrap">
             <nav>
             <div id="nav">
-                <ul>
+                <ul id="mainmenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="inside.html">Inside</a></li>
                     <li><a href="#">Menu Item</a></li>
@@ -178,6 +180,18 @@
         $('#slider').nivoSlider();
     });
     </script>
+    
+    
+    <script src="js/responsive-menu.js"></script>
+		
+<script>
+  domready(function(){
+			selectnav('mainmenu', {
+		label: '*** Select Menu *** '
+	});
+	prettyPrint()
+		})
+</script>
 </body>
 </html>
 
