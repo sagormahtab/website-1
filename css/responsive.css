@@ -82,7 +82,7 @@ px      68    160    252    */
     #header{
         text-align: center;
     }
-    p{
+    #imgp_wrap p{
 	width: 97%;
     }
     #content figure{
@@ -133,7 +133,7 @@ px      68    160    252    344    436    */
 	#header{
         text-align: center;
     }
-    p{
+    #imgp_wrap p{
 	width: 97%;
     }
     #content figure{
@@ -180,7 +180,7 @@ px      68    160    252    344    436    */
     #sidebar{
         width: 100%;
     }
-    p{
+    #imgp_wrap p{
 	width: 97%;
     }
     #header{
