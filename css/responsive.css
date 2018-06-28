@@ -82,9 +82,12 @@ px      68    160    252    */
     #header{
         text-align: center;
     }
-    #imgp_wrap p{
-	width: 97%;
-    }
+	#imgp_wrap p{
+		width: 95%;
+	}
+	#content h2{
+		width:95%;
+	}
     #content figure{
         width: 73%;
     }
@@ -133,9 +136,12 @@ px      68    160    252    344    436    */
 	#header{
         text-align: center;
     }
-    #imgp_wrap p{
-	width: 97%;
-    }
+	#imgp_wrap p{
+		width: 95%;
+	}
+	#content h2{
+		width:95%;
+	}
     #content figure{
         width: 73%;
     }
@@ -180,9 +186,12 @@ px      68    160    252    344    436    */
     #sidebar{
         width: 100%;
     }
-    #imgp_wrap p{
-	width: 97%;
-    }
+	#imgp_wrap p{
+		width: 95%;
+	}
+	#content h2{
+		width:95%;
+	}
     #header{
         text-align: center;
     }
